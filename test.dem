@@ -1,0 +1,6 @@
+set ylabel "requests/sec"
+set xlabel "time"
+plot "data_go_http.txt" using 1:3 t "Perf Test"
+pause -1 "hit return to continue"
+
+
